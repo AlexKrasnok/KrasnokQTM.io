@@ -62,7 +62,7 @@ a:hover {
 }
 
 .container {
-  width: min(100% - 2rem, var(--max-width));
+  width: min(calc(100% - 2rem), var(--max-width));
   margin-inline: auto;
 }
 
@@ -328,6 +328,7 @@ a:hover {
   display: inline-flex;
   align-items: center;
   justify-content: center;
+  max-width: 100%;
   min-height: 44px;
   padding: 0.72rem 1rem;
   color: var(--fiu-blue);
@@ -335,7 +336,10 @@ a:hover {
   border: 2px solid var(--bright-gold);
   border-radius: var(--radius);
   font-weight: 900;
+  overflow-wrap: anywhere;
+  text-align: center;
   text-decoration: none;
+  white-space: normal;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18);
 }
 
@@ -677,6 +681,13 @@ a.card:hover {
   grid-template-columns: 1.15fr 0.85fr;
   gap: clamp(1.6rem, 4vw, 3.5rem);
   align-items: start;
+}
+
+.split > *,
+.grid > *,
+.home-hero-grid > *,
+.funding-inner > * {
+  min-width: 0;
 }
 
 .lead {
@@ -1315,7 +1326,7 @@ a.card:hover {
   .research-section,
   .home-hero-grid,
   .funding-inner {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .cover-gallery {
@@ -1383,7 +1394,7 @@ a.card:hover {
   .equipment-grid,
   .equipment-gallery,
   .footer-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: minmax(0, 1fr);
   }
 
   .funding-logos {
@@ -1409,7 +1420,7 @@ a.card:hover {
 
 @media (max-width: 520px) {
   .container {
-    width: min(100% - 1.25rem, var(--max-width));
+    width: min(calc(100% - 1.25rem), var(--max-width));
   }
 
   .brand-logo {
