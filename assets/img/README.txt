@@ -1,58 +1,24 @@
-QTM Lab image placement guide
-================================
+QTM Lab website media
+=====================
 
-This site includes lab-supplied FIU assets, the QTM Lab logo, people portraits,
-research images, funding logos, cover images, and equipment images.
+Every file in this directory is part of the deployable website and remains in the GitHub repository with the page that uses it.
 
-Official FIU logo
------------------
-Current copied logo paths:
-assets/img/logos/fiu-primary-acronym-logo.png
-assets/img/logos/fiu-wordmark.jpg
-
-Replace this with an officially approved FIU logo asset if the brand file changes.
-Do not redraw, trace, modify, or imitate the FIU logo. Use only a file you are
-authorized to publish.
-
-QTM Lab logo
-------------
-Current logo paths:
-assets/img/logos/qtm-lab-logo.webp
-assets/img/logos/qtm-lab-logo.png
-
-The WebP file is used for the homepage hero and Open Graph preview. The header
-uses assets/img/favicon.png as the compact upper-left icon. The PNG file
-preserves the uploaded source artwork for future edits.
-
-People photos
+Directory map
 -------------
-Current path:
-assets/img/people/alex-krasnok.webp
 
-Current additional paths:
-assets/img/people/ingrid-torres.webp
-assets/img/people/muhammad-hasan.webp
-assets/img/people/aditya-bhowmik.webp
-assets/img/people/alim-uddin.webp
-assets/img/people/nakibul-islam.webp
-assets/img/people/deepanshu-trivedi.webp
-assets/img/people/william-segura-alvarez.webp
-assets/img/people/quesnay-lundy.webp
+- logos: official FIU assets and QTM Lab identity files
+- people: lab portraits
+- research: research-area illustrations
+- funding: sponsor and support marks
+- covers: journal cover artwork
+- equipment: laboratory equipment photographs
 
-When adding real photos, keep square crops around 800 x 800 px and use
-descriptive alt text in people.html.
+Publishing rules
+----------------
 
-Research, funding, and cover images
------------------------------------
-Current folders:
-assets/img/research/
-assets/img/funding/
-assets/img/covers/
-assets/img/logos/
-assets/img/equipment/
-
-Suggested optional paths:
-assets/img/favicon.png
-
-Use compressed PNG, JPG, or WebP files. Keep filenames lowercase, avoid spaces,
-and commit them with the HTML/CSS/JS files for GitHub Pages.
+- Use descriptive, lowercase filenames without spaces.
+- Prefer compressed WebP for photographs and large illustrations.
+- Preserve a high-quality PNG only when it is needed for the logo or source artwork.
+- Add descriptive alternative text in the corresponding HTML.
+- Use only images that the lab is authorized to publish.
+- Do not redraw, trace, alter, or imitate the FIU logo.
