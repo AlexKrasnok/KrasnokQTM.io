@@ -20,7 +20,7 @@ Static website for the Quantum Technologies and Metamaterials Lab at Florida Int
 - `assets/css/styles.css` — shared styles
 - `assets/js/main.js` — navigation behavior
 - `assets/img/` — deployable logos, portraits, research graphics, covers, funding marks, and equipment images
-- `assets/docs/` — current Master and Quantum Focus CV PDFs
+- `assets/docs/` — two-page academic resume PDF
 
 ## Deployment
 
