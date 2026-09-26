@@ -23,3 +23,27 @@ if (navToggle && nav) {
     }
   });
 }
+
+function revealLinkedPublication() {
+  let id;
+  try {
+    id = decodeURIComponent(window.location.hash.slice(1));
+  } catch {
+    return;
+  }
+  const target = id && document.getElementById(id);
+  if (!target) return;
+  let parent = target.parentElement;
+  let expanded = false;
+  while (parent) {
+    if (parent instanceof HTMLDetailsElement && !parent.open) {
+      parent.open = true;
+      expanded = true;
+    }
+    parent = parent.parentElement;
+  }
+  if (expanded) target.scrollIntoView({ block: "start" });
+}
+
+window.addEventListener("hashchange", revealLinkedPublication);
+revealLinkedPublication();

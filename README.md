@@ -16,14 +16,17 @@ Static website for the Quantum Technologies and Metamaterials Lab at Florida Int
 - `facilities.html` — laboratory facilities and equipment
 - `teaching.html` — courses, the open lecture course, and teaching resources
 - `resources.html` — research, software, writing, and FIU resources
-- `openings.html` — recruiting and contact information
+- `openings.html` — opportunities, current fellowship deadlines, recruiting, and contact information
 - `assets/css/styles.css` — shared styles
 - `assets/js/main.js` — navigation behavior
 - `assets/img/` — deployable logos, portraits, research graphics, covers, funding marks, and equipment images
+- `assets/docs/` — current Master and Quantum Focus CV PDFs
 
 ## Deployment
 
-The site uses static HTML, CSS, and vanilla JavaScript. A push to `main` runs `.github/workflows/static.yml` and publishes the repository through GitHub Pages. The `CNAME` file keeps the custom domain set to `krasnokqtm.com`.
+The site uses static HTML, CSS, and vanilla JavaScript. A push to `main` runs `.github/workflows/static.yml`. The workflow first runs `.github/scripts/prepare_site.py` to collect the public HTML, domain configuration, sitemap, and assets into `_site`, then publishes that directory through GitHub Pages. Local archives and documentation are excluded. The `CNAME` file keeps the custom domain set to `krasnokqtm.com`.
+
+To preview locally, run `python -m http.server 8765` from this directory and open `http://localhost:8765`. To prepare a separate public bundle, run `python .github/scripts/prepare_site.py <empty-output-directory>`.
 
 ## Content Maintenance
 

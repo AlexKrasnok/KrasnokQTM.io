@@ -1,449 +1,334 @@
-<!doctype html>
+<!DOCTYPE html>
+
 <html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>QTM Lab | Quantum Technologies and Metamaterials Lab</title>
-  <meta name="description" content="QTM Lab is the Quantum Technologies and Metamaterials Lab at Florida International University, led by Prof. Aleksandr Krasnok.">
-  <meta property="og:title" content="QTM Lab | Quantum Technologies and Metamaterials Lab">
-  <meta property="og:description" content="QTM Lab engineers waveform- and metamaterial-enabled electromagnetic systems for quantum hardware, precision sensing, and photonic control.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://krasnokqtm.com/assets/img/logos/qtm-lab-logo.webp">
-  <meta property="og:site_name" content="QTM Lab">
-  <meta property="og:url" content="https://krasnokqtm.com/">
-  <meta name="twitter:card" content="summary_large_image">
-  <link rel="canonical" href="https://krasnokqtm.com/">
-  <link rel="icon" href="assets/img/favicon.png">
-  <link rel="stylesheet" href="assets/css/styles.css">
-  <script src="assets/js/main.js" defer></script>
-  <script type="application/ld+json">
-  {
-    "@context": "https://schema.org",
-    "@type": "ResearchOrganization",
-    "name": "QTM Lab",
-    "alternateName": "Quantum Technologies and Metamaterials Lab",
-    "url": "https://krasnokqtm.com/",
-    "logo": "https://krasnokqtm.com/assets/img/logos/qtm-lab-logo.webp",
-    "description": "QTM Lab engineers waveform- and metamaterial-enabled electromagnetic systems for quantum hardware, precision sensing, and photonic control.",
-    "parentOrganization": {
-      "@type": "CollegeOrUniversity",
-      "name": "Florida International University",
-      "url": "https://www.fiu.edu/"
-    },
-    "address": {
-      "@type": "PostalAddress",
-      "streetAddress": "10555 W Flagler Street, Engineering Center",
-      "addressLocality": "Miami",
-      "addressRegion": "FL",
-      "postalCode": "33174",
-      "addressCountry": "US"
-    },
-    "employee": {
-      "@type": "Person",
-      "name": "Aleksandr Krasnok",
-      "jobTitle": "Assistant Professor of Electrical and Computer Engineering",
-      "email": "akrasnok@fiu.edu",
-      "url": "https://krasnokqtm.com/prof-krasnok.html"
-    }
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>QTM Lab | Quantum Technologies and Metamaterials Lab</title>
+<meta content="QTM Lab is the Quantum Technologies and Metamaterials Lab at Florida International University, led by Prof. Aleksandr Krasnok." name="description"/>
+<meta content="QTM Lab | Quantum Technologies and Metamaterials Lab" property="og:title"/>
+<meta content="We study how shaped electromagnetic waves and engineered materials control light, sense weak signals, and address quantum devices. Our work combines theory, numerical modeling, and experiments in photonics, microwave systems, and cryogenic sensing." property="og:description"/>
+<meta content="website" property="og:type"/>
+<meta content="https://krasnokqtm.com/assets/img/logos/qtm-lab-logo.webp" property="og:image"/>
+<meta content="QTM Lab" property="og:site_name"/>
+<meta content="https://krasnokqtm.com/" property="og:url"/>
+<meta content="summary_large_image" name="twitter:card"/>
+<link href="https://krasnokqtm.com/" rel="canonical"/>
+<link href="assets/img/favicon.png" rel="icon"/>
+<link href="assets/css/styles.css" rel="stylesheet"/>
+<script defer="" src="assets/js/main.js"></script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "ResearchOrganization",
+  "name": "QTM Lab",
+  "alternateName": "Quantum Technologies and Metamaterials Lab",
+  "url": "https://krasnokqtm.com/",
+  "logo": "https://krasnokqtm.com/assets/img/logos/qtm-lab-logo.webp",
+  "description": "We study how shaped electromagnetic waves and engineered materials control light, sense weak signals, and address quantum devices. Our work combines theory, numerical modeling, and experiments in photonics, microwave systems, and cryogenic sensing.",
+  "parentOrganization": {
+    "@type": "CollegeOrUniversity",
+    "name": "Florida International University",
+    "url": "https://www.fiu.edu/"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "streetAddress": "10555 W Flagler Street, Engineering Center",
+    "addressLocality": "Miami",
+    "addressRegion": "FL",
+    "postalCode": "33174",
+    "addressCountry": "US"
+  },
+  "employee": {
+    "@type": "Person",
+    "name": "Aleksandr Krasnok",
+    "jobTitle": "Assistant Professor of Electrical and Computer Engineering",
+    "email": "akrasnok@fiu.edu",
+    "url": "https://krasnokqtm.com/prof-krasnok.html"
   }
-  </script>
-</head>
+}
+</script>
+<link href="assets/css/publications.css" rel="stylesheet"/></head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-  <header class="site-header">
-    <div class="container header-inner">
-      <a class="brand" href="index.html" aria-label="QTM Lab home">
-        <span class="brand-logo" aria-hidden="true"><img src="assets/img/favicon.png" alt=""></span>
-        <span class="brand-text">
-          <strong>QTM Lab</strong>
-          <small>Quantum Technologies and Metamaterials Lab</small>
-        </span>
-      </a>
-      <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-navigation">
-        <span class="nav-toggle-bars" aria-hidden="true"></span>
-        <span class="sr-only">Toggle navigation</span>
-      </button>
-      <nav class="site-nav" id="site-navigation" aria-label="Main navigation">
-        <ul>
-          <li><a href="index.html" aria-current="page">Home</a></li>
-          <li><a href="research.html">Research</a></li>
-          <li><a href="people.html">People</a></li>
-          <li><a href="prof-krasnok.html">Prof. Krasnok</a></li>
-          <li><a href="publications.html">Publications</a></li>
-          <li><a href="facilities.html">Facilities</a></li>
-          <li><a href="teaching.html">Teaching</a></li>
-          <li><a href="resources.html">Resources</a></li>
-          <li><a href="openings.html">Openings &amp; Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main id="main">
-    <section class="hero" aria-labelledby="home-title">
-      <div class="hero-pattern" aria-hidden="true">
-        <div class="orbit"></div>
-        <div class="wave"></div>
-        <div class="dot-field"></div>
-      </div>
-      <div class="container hero-inner home-hero-grid">
-        <div class="hero-content">
-          <p class="eyebrow">Florida International University</p>
-          <h1 id="home-title">QTM Lab</h1>
-          <p class="subtitle">Quantum Technologies and Metamaterials Lab</p>
-          <p class="tagline">QTM Lab engineers waveform- and metamaterial-enabled electromagnetic systems for quantum hardware, precision sensing, and photonic control. We combine complex-frequency electrodynamics, cryogenic quantum interfaces, metasurfaces, and reproducible computation to move ideas from wave physics to deployable devices.</p>
-          <div class="hero-actions" aria-label="Primary actions">
-            <a class="button" href="research.html">Explore Research</a>
-            <a class="button secondary" href="publications.html">View Publications</a>
-            <a class="button secondary" href="https://github.com/AlexKrasnok/quantum-computing-lectures" target="_blank" rel="noopener">Open Lecture Course</a>
-            <a class="button secondary" href="openings.html">Join the Lab</a>
-          </div>
-        </div>
-        <figure class="hero-media logo-media">
-          <img src="assets/img/logos/qtm-lab-logo.webp" alt="QTM Lab quantum technologies and metamaterials logo artwork">
-          <figcaption>Quantum Technologies and Metamaterials Lab at FIU.</figcaption>
-        </figure>
-      </div>
-    </section>
-
-    <section class="stats-band" aria-label="Lab statistics">
-      <div class="container stats-grid">
-        <div class="stat-item">
-          <strong>200+</strong>
-          <span>peer-reviewed publications</span>
-        </div>
-        <div class="stat-item">
-          <strong>60</strong>
-          <span>h-index</span>
-        </div>
-        <div class="stat-item">
-          <strong>14,904</strong>
-          <span>citations as of August 5, 2026</span>
-        </div>
-        <div class="stat-item">
-          <strong>112</strong>
-          <span>i10-index</span>
-        </div>
-        <div class="stat-item">
-          <strong>$1.4M+</strong>
-          <span>awarded external, fellowship, and in-kind support</span>
-        </div>
-        <div class="stat-item">
-          <strong>FIU</strong>
-          <span>quantum-computing curriculum launched</span>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="pi-leadership">
-      <div class="container pi-feature">
-        <div class="person-photo is-photo pi-feature-photo">
-          <img src="assets/img/people/alex-krasnok.webp" alt="Portrait of Prof. Aleksandr Krasnok">
-        </div>
-        <div>
-          <div class="section-heading compact">
-            <span class="gold-rule" aria-hidden="true"></span>
-            <h2 id="pi-leadership">Led by Prof. Aleksandr Krasnok</h2>
-          </div>
-          <p class="lead">Prof. Krasnok is an FIU assistant professor, QTM Lab director, Co-Director of the FIU Quantum Initiative, IEEE Senior Member, and author of 200+ peer-reviewed publications across <em>Science</em>, <em>Nature</em>, <em>Physical Review Letters</em>, nanophotonics, metamaterials, and quantum hardware.</p>
-          <div class="profile-link-row" aria-label="Prof. Krasnok profile links">
-            <a href="https://scholar.google.com/citations?hl=en&amp;user=VoBBVAYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a>
-            <a href="https://orcid.org/0000-0001-7419-781X" target="_blank" rel="noopener">ORCID</a>
-            <a href="https://cec.fiu.edu/about/directory/profiles/aleksandr-krasnok.html" target="_blank" rel="noopener">FIU Profile</a>
-            <a href="prof-krasnok.html#lectures">Selected Talks</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section class="funding-strip" aria-labelledby="support-heading">
-      <div class="container funding-inner">
-        <div>
-          <h2 id="support-heading">Funding and Support</h2>
-          <p>Selected active, awarded, and recent support includes DOE MSRC/MEERCAT El-Pho, ONR nanoscale coatings research, NSF I-Corps Meta-MRI, AFOSR complex-frequency plasma research, Intelligence Community postdoctoral fellowship support, IonQ quantum compute credits, and NVIDIA GPU compute resources.</p>
-        </div>
-        <div class="funding-logos" aria-label="Selected funding and support logos">
-          <div class="funding-logo-card"><img src="assets/img/funding/nsf.png" loading="lazy" decoding="async" alt="National Science Foundation logo"></div>
-          <div class="funding-logo-card"><img src="assets/img/funding/doe.png" loading="lazy" decoding="async" alt="U.S. Department of Energy logo"></div>
-          <div class="funding-logo-card"><img src="assets/img/funding/ic-postdoc.png" loading="lazy" decoding="async" alt="Intelligence Community Postdoctoral Research Fellowship Program logo"></div>
-        </div>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="research-snapshot">
-      <div class="container">
-        <div class="section-heading">
-          <span class="gold-rule" aria-hidden="true"></span>
-          <h2 id="research-snapshot">Research Snapshot</h2>
-          <p>QTM Lab connects photonics, electromagnetics, quantum technologies, cryogenic systems, metasurfaces, and applied engineering.</p>
-        </div>
-        <div class="grid three">
-          <a class="card research-card" href="research-complex-frequency.html">
-            <h3>Complex-frequency electrodynamics and non-Hermitian scattering</h3>
-            <p>Pole-zero engineering, waveform design, and resonant scattering beyond steady-state bounds.</p>
-            <span class="card-link-text">Relevant publications</span>
-          </a>
-          <a class="card research-card" href="research-quantum-control.html">
-            <h3>Quantum control and quantum-hardware diagnostics</h3>
-            <p>Control protocols, diagnostics, and modeling workflows for quantum devices and platforms.</p>
-            <span class="card-link-text">Relevant publications</span>
-          </a>
-          <a class="card research-card" href="research-circuit-qed.html">
-            <h3>Circuit/cavity QED and photonic interfaces</h3>
-            <p>Superconducting, microwave, and photonic interfaces for quantum information systems.</p>
-            <span class="card-link-text">Relevant publications</span>
-          </a>
-          <a class="card research-card" href="research-nanophotonics.html">
-            <h3>Nanophotonics, metasurfaces, and reconfigurable antennas</h3>
-            <p>Mie resonators, metasurfaces, polaritonic media, antennas, and active electromagnetic structures.</p>
-            <span class="card-link-text">Relevant publications</span>
-          </a>
-          <a class="card research-card" href="research-quantum-sensing.html">
-            <h3>Quantum sensing, cryogenic sensing, and applied metrology</h3>
-            <p>Cryogenic wireless sensing, NV-diamond magnetometry, and field-control metasurfaces for measurement.</p>
-            <span class="card-link-text">Relevant publications</span>
-          </a>
-          <a class="card research-card" href="research-computational-electromagnetics.html">
-            <h3>Computational electromagnetics and quantum simulation</h3>
-            <p>Full-wave simulation, GPU/HPC workflows, QuTiP, Qiskit, and reproducible research pipelines.</p>
-            <span class="card-link-text">Relevant publications</span>
-          </a>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" aria-labelledby="about-lab">
-      <div class="container split">
-        <div>
-          <div class="section-heading">
-            <span class="gold-rule" aria-hidden="true"></span>
-            <h2 id="about-lab">About QTM Lab</h2>
-          </div>
-          <p class="lead">The Quantum Technologies and Metamaterials Lab at FIU develops theoretical, computational, and experimental tools to control light&ndash;matter interaction, resonant wave systems, quantum hardware interfaces, and metamaterial-enabled sensing. The lab connects photonics, electromagnetics, quantum technologies, cryogenic systems, metasurfaces, and applied engineering.</p>
-        </div>
-        <aside class="callout" aria-labelledby="lab-focus">
-          <h3 id="lab-focus">Lab Focus</h3>
-          <ul>
-            <li>Quantum photonics and non-Hermitian wave physics</li>
-            <li>Metasurface-enabled sensing and field control</li>
-            <li>Superconducting/circuit-QED and cryogenic interfaces</li>
-            <li>Reproducible computation, simulation, and measurement</li>
-          </ul>
-          <p><a href="https://quantum.fiu.edu/" target="_blank" rel="noopener">FIU Quantum Initiative</a></p>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="featured-publications">
-      <div class="container">
-        <div class="section-heading">
-          <span class="gold-rule" aria-hidden="true"></span>
-          <h2 id="featured-publications">Featured Publications</h2>
-          <p>Selected papers highlighting complex-frequency wave physics, scattering, quantum systems, and nanophotonics.</p>
-        </div>
-        <ol class="publication-list">
-          <li class="publication-item">
-            <strong>A. Krasnok and D. Seletskiy, &ldquo;Complex-Frequency Chirped Pulses for Trajectory-Resolved Scattering,&rdquo;</strong>
-            <span><em>ACS Photonics</em> (2026), published online August 4, 2026.</span>
-            <span class="doi"><a href="https://doi.org/10.1021/acsphotonics.6c00602" target="_blank" rel="noopener">doi:10.1021/acsphotonics.6c00602</a></span>
-          </li>
-          <li class="publication-item">
-            <strong>M. M. Hasan, I. Torres, and A. Krasnok, &ldquo;Quantum Magnetometers for Infrastructure Inspection and Monitoring,&rdquo;</strong>
-            <span><em>Measurement</em> 290, 122735 (2026).</span>
-            <span class="doi"><a href="https://doi.org/10.1016/j.measurement.2026.122735" target="_blank" rel="noopener">doi:10.1016/j.measurement.2026.122735</a></span>
-          </li>
-          <li class="publication-item">
-            <strong>I. Torres and A. Krasnok, &ldquo;From Flat-Optics Concept to Qualified Hardware: Skills Map for the Meta-Optics and Diffractive Optics Workforce,&rdquo;</strong>
-            <span><em>Optical Engineering</em> 65(10), 102007 (2026).</span>
-            <span class="doi"><a href="https://doi.org/10.1117/1.OE.65.10.102007" target="_blank" rel="noopener">doi:10.1117/1.OE.65.10.102007</a></span>
-          </li>
-          <li class="publication-item">
-            <strong>A. Krasnok, &ldquo;Constant-Amplitude 2&pi; Phase Modulation from Topological Pole-Zero Winding,&rdquo;</strong>
-            <span><em>Physical Review Letters</em> 137, 053801 (2026).</span>
-          </li>
-          <li class="publication-item">
-            <strong>A. Krasnok, A. Sarwat, W. Anderson Jr., and A. Gil, &ldquo;Universities need transparent quantum hardware,&rdquo;</strong>
-            <span><em>Nature Reviews Physics</em> (2026), Comment.</span>
-          </li>
-          <li class="publication-item">
-            <strong>S. Kim, A. Krasnok, and A. Al&ugrave;, &ldquo;Complex-frequency excitations in photonics and wave physics,&rdquo;</strong>
-            <span><em>Science</em> 387, eado4128 (2025).</span>
-          </li>
-          <li class="publication-item">
-            <strong>S. Kim, S. Lepeshov, A. Krasnok, and A. Al&ugrave;, &ldquo;Beyond bounds on light scattering with complex frequency excitations,&rdquo;</strong>
-            <span><em>Physical Review Letters</em> 129, 203601 (2022).</span>
-          </li>
-          <li class="publication-item">
-            <strong>A. Krasnok et al., &ldquo;Anomalies in light scattering,&rdquo;</strong>
-            <span><em>Advances in Optics and Photonics</em> 11, 892&ndash;951 (2019).</span>
-          </li>
-          <li class="publication-item">
-            <strong>A. Krasnok et al., &ldquo;Coherently enhanced wireless power transfer,&rdquo;</strong>
-            <span><em>Physical Review Letters</em> 120, 143901 (2018).</span>
-          </li>
-          <li class="publication-item">
-            <strong>A. Krasnok et al., &ldquo;Superconducting microwave cavities and qubits for quantum information systems,&rdquo;</strong>
-            <span><em>Applied Physics Reviews</em> 11, 011302 (2024).</span>
-          </li>
-          <li class="publication-item">
-            <strong>Q. Zhang et al., &ldquo;Interface nano-optics with van der Waals polaritons,&rdquo;</strong>
-            <span><em>Nature</em> 597, 187&ndash;195 (2021).</span>
-          </li>
-          <li class="publication-item">
-            <strong>G. Hu et al., &ldquo;Topological polaritons and photonic magic angles in twisted &alpha;-MoO3 bilayers,&rdquo;</strong>
-            <span><em>Nature</em> 582, 209&ndash;213 (2020).</span>
-          </li>
-        </ol>
-        <p><a class="button" href="publications.html">Full Publications Page</a></p>
-      </div>
-    </section>
-
-    <section class="section alt" aria-labelledby="selected-covers">
-      <div class="container">
-        <div class="section-heading">
-          <span class="gold-rule" aria-hidden="true"></span>
-          <h2 id="selected-covers">Selected Cover Art</h2>
-          <p>Selected published work recognized with journal cover features.</p>
-        </div>
-        <div class="cover-gallery">
-          <figure class="cover-card">
-            <img src="assets/img/covers/materials-today-2019.webp" loading="lazy" decoding="async" alt="Materials Today cover from 2019">
-            <figcaption><em>Materials Today</em>, 2019</figcaption>
-          </figure>
-          <figure class="cover-card">
-            <img src="assets/img/covers/acs-photonics-2020-cover.webp" loading="lazy" decoding="async" alt="ACS Photonics cover from June 2020">
-            <figcaption><em>ACS Photonics</em>, 2020</figcaption>
-          </figure>
-          <figure class="cover-card">
-            <img src="assets/img/covers/advanced-materials-2021-cover.webp" loading="lazy" decoding="async" alt="Advanced Materials cover from 2021">
-            <figcaption><em>Advanced Materials</em>, 2021</figcaption>
-          </figure>
-          <figure class="cover-card">
-            <img src="assets/img/covers/laser-photonics-reviews-2017-terahertz.webp" loading="lazy" decoding="async" alt="Laser and Photonics Reviews cover from January 2017">
-            <figcaption><em>Laser &amp; Photonics Reviews</em>, 2017</figcaption>
-          </figure>
-          <figure class="cover-card">
-            <img src="assets/img/covers/small-2019.webp" loading="lazy" decoding="async" alt="Small journal cover from 2019">
-            <figcaption><em>Small</em>, 2019</figcaption>
-          </figure>
-        </div>
-        <p><a class="button" href="publications.html">See More Covers</a></p>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="home-news">
-      <div class="container">
-        <div class="section-heading">
-          <span class="gold-rule" aria-hidden="true"></span>
-          <h2 id="home-news">Recent News</h2>
-          <p>Awards, support, publications, events, and lab milestones.</p>
-        </div>
-        <div class="news-list">
-          <article class="news-item">
-            <strong>August 2026: Open quantum-computing course released</strong>
-            <span>The complete lecture sequence, assignments, figures, references, and current Qiskit notebooks are available in the <a href="https://github.com/AlexKrasnok/quantum-computing-lectures" target="_blank" rel="noopener">Quantum Computing Lectures repository</a> for teaching and independent study.</span>
-          </article>
-          <article class="news-item">
-            <strong>Forthcoming September 2026: New Springer book</strong>
-            <span><em>Introduction to Quantum Computing and Sensing for Electrical Engineers: A Hands-On Guide</em> connects quantum theory, engineering systems, and practical Python workflows. <a href="https://link.springer.com/book/9783032345295" target="_blank" rel="noopener">View the book at Springer</a>.</span>
-          </article>
-          <article class="news-item">
-            <strong>2026: New papers in ACS Photonics, Measurement, and Optical Engineering</strong>
-            <span>Recent work covers complex-frequency chirped-pulse scattering, quantum magnetometers for infrastructure inspection, and the skills needed to move flat-optics concepts into qualified hardware. See the <a href="publications.html">publications page</a>.</span>
-          </article>
-          <article class="news-item">
-            <strong>July 2026: Single-author PRL published</strong>
-            <span>&ldquo;Constant-Amplitude 2&pi; Phase Modulation from Topological Pole-Zero Winding&rdquo; appeared in <em>Physical Review Letters</em> 137, 053801 (2026).</span>
-          </article>
-          <article class="news-item">
-            <strong>July 2026: Comment in Nature Reviews Physics</strong>
-            <span>&ldquo;Universities need transparent quantum hardware&rdquo; argues for open, inspectable quantum hardware in university research and teaching.</span>
-          </article>
-          <article class="news-item">
-            <strong>June 2026: Quantum sensing for bridge inspection</strong>
-            <span>Prof. Krasnok&rsquo;s article on quantum sensors for structurally deficient U.S. bridges ran in <em>The Conversation</em> and was republished by <em>Scientific American</em> and <em>FIU News</em>.</span>
-          </article>
-          <article class="news-item">
-            <strong>2026: FIU Presidential Excellence Award</strong>
-            <span>Prof. Krasnok received FIU Presidential Excellence recognition.</span>
-          </article>
-          <article class="news-item">
-            <strong>2026: NVIDIA Academic Grant Program GPU compute award</strong>
-            <span>QTM Lab received GPU compute support for simulation and computational workflows.</span>
-          </article>
-          <article class="news-item">
-            <strong>2025: DOE MSRC/MEERCAT El-Pho support</strong>
-            <span>FIU-supported El-Pho work advances quantum, photonic, and materials research directions.</span>
-          </article>
-          <article class="news-item">
-            <strong>2025: FIU Qiskit Fall Fest organized by QTM Lab</strong>
-            <span>The lab organized a quantum-computing event for students and the FIU community.</span>
-          </article>
-          <article class="news-item">
-            <strong>2025: Complex-frequency excitations review published in Science</strong>
-            <span>A review on complex-frequency excitations in photonics and wave physics appeared in <em>Science</em>.</span>
-          </article>
-          <article class="news-item">
-            <strong>2024: Leopold B. Felsen Award for Excellence in Electrodynamics</strong>
-            <span>Prof. Krasnok received the Leopold B. Felsen Award for Excellence in Electrodynamics.</span>
-          </article>
-        </div>
-      </div>
-    </section>
-
-    <section class="section alt" aria-labelledby="quantum-initiative">
-      <div class="container split">
-        <div>
-          <div class="section-heading">
-            <span class="gold-rule" aria-hidden="true"></span>
-            <h2 id="quantum-initiative">FIU Quantum Initiative</h2>
-            <p>QTM Lab contributes to FIU-wide quantum education, research, workforce development, and partnerships.</p>
-          </div>
-        </div>
-        <aside class="card">
-          <h3>University Quantum Ecosystem</h3>
-          <p>Prof. Krasnok serves as Co-Director of the FIU Quantum Initiative, helping connect quantum computing, sensing, materials, photonics, and engineering activities across the university.</p>
-          <p><a href="https://quantum.fiu.edu/" target="_blank" rel="noopener">Visit the FIU Quantum Initiative</a></p>
-        </aside>
-      </div>
-    </section>
-
-    <section class="section" aria-labelledby="honors-snapshot">
-      <div class="container">
-        <div class="section-heading">
-          <span class="gold-rule" aria-hidden="true"></span>
-          <h2 id="honors-snapshot">Honors Snapshot</h2>
-        </div>
-        <ul class="feature-list">
-          <li>FIU Presidential Excellence Award, 2026</li>
-          <li>FIU Top Scholar Award, 2025</li>
-          <li>Leopold B. Felsen Award for Excellence in Electrodynamics, 2024</li>
-          <li>IEEE Senior Member</li>
-          <li>Stanford/Elsevier Top 2% Scientist recognition, 2021&ndash;2025</li>
-          <li>Early-Career Award in Nanophotonics, 2021</li>
-        </ul>
-      </div>
-    </section>
-  </main>
-
-  <footer class="site-footer">
-    <div class="container footer-grid">
-      <div class="footer-brand">
-        <strong>QTM Lab</strong>
-        <p>Quantum Technologies and Metamaterials Lab<br>Florida International University, Department of Electrical and Computer Engineering</p>
-        <div class="fiu-logo-slot">
-          
-          <img src="assets/img/logos/fiu-wordmark.jpg" loading="lazy" decoding="async" alt="Florida International University logo">
-        </div>
-      </div>
-      <div class="footer-links">
-        <nav aria-label="Footer navigation"><a href="research.html">Research</a><a href="people.html">People</a><a href="prof-krasnok.html">Prof. Krasnok</a><a href="publications.html">Publications</a><a href="resources.html">Resources</a><a href="openings.html">Openings &amp; Contact</a></nav>
-        <div class="social-links" aria-label="Profile links"><a href="https://scholar.google.com/citations?hl=en&amp;user=VoBBVAYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" target="_blank" rel="noopener">Google Scholar</a><a href="https://orcid.org/0000-0001-7419-781X" target="_blank" rel="noopener">ORCID</a><a href="https://www.linkedin.com/in/alexkrasnok/" target="_blank" rel="noopener">LinkedIn</a><a href="https://cec.fiu.edu/about/directory/profiles/aleksandr-krasnok.html" target="_blank" rel="noopener">FIU Profile</a><a href="https://theconversation.com/profiles/alex-krasnok-1446842" target="_blank" rel="noopener">The Conversation</a><a href="https://research.com/u/alex-krasnok" target="_blank" rel="noopener">Research.com</a></div><a class="visitor-counter" href="https://hits.sh/krasnok.com/qtm-lab/" target="_blank" rel="noopener"><span>Site visits</span><img src="https://hits.sh/krasnok.com/qtm-lab.svg?style=flat-square&amp;label=Visits&amp;color=081E3F&amp;labelColor=D1A644" alt="Site visit counter" loading="lazy"></a>
-      </div>
-    </div>
-    <div class="container">
-      <p class="copyright">&copy; 2026 QTM Lab &mdash; Quantum Technologies and Metamaterials Lab, Florida International University.</p>
-    </div>
-  </footer>
+<a class="skip-link" href="#main">Skip to content</a>
+<header class="site-header">
+<div class="container header-inner">
+<a aria-label="QTM Lab home" class="brand" href="index.html">
+<span aria-hidden="true" class="brand-logo"><img alt="" src="assets/img/favicon.png"/></span>
+<span class="brand-text">
+<strong>QTM Lab</strong>
+<small>Quantum Technologies and Metamaterials Lab</small>
+</span>
+</a>
+<button aria-controls="site-navigation" aria-expanded="false" class="nav-toggle" type="button">
+<span aria-hidden="true" class="nav-toggle-bars"></span>
+<span class="sr-only">Toggle navigation</span>
+</button>
+<nav aria-label="Main navigation" class="site-nav" id="site-navigation">
+<ul>
+<li><a aria-current="page" href="index.html">Home</a></li>
+<li><a href="research.html">Research</a></li>
+<li><a href="people.html">People</a></li>
+<li><a href="prof-krasnok.html">Prof. Krasnok</a></li>
+<li><a href="publications.html">Publications</a></li>
+<li><a href="facilities.html">Facilities</a></li>
+<li><a href="teaching.html">Teaching</a></li>
+<li><a href="resources.html">Resources</a></li>
+<li><a href="openings.html">Opportunities</a></li>
+</ul>
+</nav>
+</div>
+</header>
+<main id="main">
+<section aria-labelledby="home-title" class="hero">
+<div aria-hidden="true" class="hero-pattern">
+<div class="orbit"></div>
+<div class="wave"></div>
+<div class="dot-field"></div>
+</div>
+<div class="container hero-inner home-hero-grid">
+<div class="hero-content">
+<p class="eyebrow">Florida International University</p>
+<h1 id="home-title">QTM Lab</h1>
+<p class="subtitle">Quantum Technologies and Metamaterials Lab</p>
+<p class="tagline">We study how shaped electromagnetic waves and engineered materials control light, sense weak signals, and address quantum devices. Our work combines theory, numerical modeling, and experiments in photonics, microwave systems, and cryogenic sensing.</p>
+<div aria-label="Primary actions" class="hero-actions">
+<a class="button" href="research.html">Explore Research</a>
+<a class="button secondary" href="publications.html">View Publications</a>
+<a class="button secondary" href="https://github.com/AlexKrasnok/quantum-computing-lectures" rel="noopener" target="_blank">Open Lecture Course</a>
+<a class="button secondary" href="openings.html">Join the Lab</a>
+</div>
+</div>
+<figure class="hero-media logo-media">
+<img alt="QTM Lab quantum technologies and metamaterials logo artwork" src="assets/img/logos/qtm-lab-logo.webp"/>
+<figcaption>Quantum Technologies and Metamaterials Lab at FIU.</figcaption>
+</figure>
+</div>
+</section>
+<section aria-label="Lab statistics" class="stats-band">
+<div class="container stats-grid">
+<div class="stat-item">
+<strong>200+</strong>
+<span>career-wide scholarly works</span>
+</div>
+<div class="stat-item">
+<strong>61</strong>
+<span>h-index</span>
+</div>
+<div class="stat-item">
+<strong>15,222</strong>
+<span>citations · September 25, 2026</span>
+</div>
+<div class="stat-item">
+<strong>113</strong>
+<span>i10-index</span>
+</div>
+<div class="stat-item">
+<strong>45+</strong>
+<span>journal publications since joining FIU in August 2021</span>
+</div>
+<div class="stat-item">
+<strong>2</strong>
+<span>FIU quantum-computing courses developed</span>
+</div>
+</div>
+<p class="container metrics-note">Career-wide citation metrics: <a href="https://scholar.google.com/citations?user=VoBBVAYAAAAJ" rel="noopener" target="_blank">Google Scholar</a>.</p></section>
+<section aria-labelledby="pi-leadership" class="section">
+<div class="container pi-feature">
+<div class="person-photo is-photo pi-feature-photo">
+<img alt="Portrait of Prof. Aleksandr Krasnok" src="assets/img/people/alex-krasnok.webp"/>
+</div>
+<div>
+<div class="section-heading compact">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="pi-leadership">Led by Prof. Aleksandr Krasnok</h2>
+</div>
+<p class="lead">Prof. Aleksandr Krasnok directs QTM Lab and is an Assistant Professor of Electrical and Computer Engineering at FIU. He co-founded the FIU Quantum Initiative and serves on the university-wide quantum committee. His research appears in <em>Science</em>, <em>Nature</em>, and <em>Physical Review Letters</em>; his 2026 recognitions include selection to the Fulbright Specialist Roster and ASEMFL Rising Star in Engineering.</p>
+<div aria-label="Prof. Krasnok profile links" class="profile-link-row">
+<a href="https://scholar.google.com/citations?hl=en&amp;user=VoBBVAYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="noopener" target="_blank">Google Scholar</a>
+<a href="https://orcid.org/0000-0001-7419-781X" rel="noopener" target="_blank">ORCID</a>
+<a href="https://cec.fiu.edu/about/directory/profiles/aleksandr-krasnok.html" rel="noopener" target="_blank">FIU Profile</a>
+<a href="prof-krasnok.html#lectures">Selected Talks</a>
+</div>
+</div>
+</div>
+</section>
+<section aria-labelledby="support-heading" class="funding-strip">
+<div class="container funding-inner">
+<div>
+<h2 id="support-heading">Funding and Support</h2>
+<p>Active research awards include DOE/Brookhaven El-Pho, AFOSR complex-frequency plasma research, and NSF I-Corps Meta-MRI. The lab was established with a $500,000 FIU start-up package. Recent support also includes DOE SBIR/RadiaBeam, ONR, an IC postdoctoral fellowship, and NVIDIA computing resources. <a href="prof-krasnok.html#research-support">Awards, roles, and funding amounts</a>.</p>
+</div>
+<div aria-label="Selected funding and support logos" class="funding-logos">
+<div class="funding-logo-card"><img alt="National Science Foundation logo" decoding="async" loading="lazy" src="assets/img/funding/nsf.png"/></div>
+<div class="funding-logo-card"><img alt="U.S. Department of Energy logo" decoding="async" loading="lazy" src="assets/img/funding/doe.png"/></div>
+<div class="funding-logo-card"><img alt="Intelligence Community Postdoctoral Research Fellowship Program logo" decoding="async" loading="lazy" src="assets/img/funding/ic-postdoc.png"/></div>
+</div>
+</div>
+</section>
+<section aria-labelledby="research-snapshot" class="section">
+<div class="container">
+<div class="section-heading">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="research-snapshot">Research Snapshot</h2>
+<p>QTM Lab connects photonics, electromagnetics, quantum technologies, cryogenic systems, metasurfaces, and applied engineering.</p>
+</div>
+<div class="grid three">
+<a class="card research-card" href="research-complex-frequency.html">
+<h3>Complex-frequency electrodynamics and non-Hermitian scattering</h3>
+<p>Pole-zero engineering, waveform design, and resonant scattering beyond steady-state bounds.</p>
+<span class="card-link-text">Relevant publications</span>
+</a>
+<a class="card research-card" href="research-quantum-control.html">
+<h3>Quantum control and quantum-hardware diagnostics</h3>
+<p>Control protocols, diagnostics, and modeling workflows for quantum devices and platforms.</p>
+<span class="card-link-text">Relevant publications</span>
+</a>
+<a class="card research-card" href="research-circuit-qed.html">
+<h3>Circuit/cavity QED and photonic interfaces</h3>
+<p>Superconducting, microwave, and photonic interfaces for quantum information systems.</p>
+<span class="card-link-text">Relevant publications</span>
+</a>
+<a class="card research-card" href="research-nanophotonics.html">
+<h3>Nanophotonics, metasurfaces, and reconfigurable antennas</h3>
+<p>Mie resonators, metasurfaces, polaritonic media, antennas, and active electromagnetic structures.</p>
+<span class="card-link-text">Relevant publications</span>
+</a>
+<a class="card research-card" href="research-quantum-sensing.html">
+<h3>Quantum sensing, cryogenic sensing, and applied metrology</h3>
+<p>Cryogenic wireless sensing, NV-diamond magnetometry, and field-control metasurfaces for measurement.</p>
+<span class="card-link-text">Relevant publications</span>
+</a>
+<a class="card research-card" href="research-computational-electromagnetics.html">
+<h3>Computational electromagnetics and quantum simulation</h3>
+<p>Full-wave simulation, GPU/HPC workflows, QuTiP, Qiskit, and reproducible research pipelines.</p>
+<span class="card-link-text">Relevant publications</span>
+</a>
+</div>
+</div>
+</section>
+<section aria-labelledby="about-lab" class="section alt">
+<div class="container split">
+<div>
+<div class="section-heading">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="about-lab">About QTM Lab</h2>
+</div>
+<p class="lead">Founded at FIU in 2021, QTM Lab studies complex-frequency wave control, superconducting and photonic interfaces, and sensing with resonant structures. Postdoctoral fellows, graduate researchers, and undergraduate students develop models, build experiments, and test how these ideas perform in physical devices.</p>
+</div>
+<aside aria-labelledby="lab-focus" class="callout">
+<h3 id="lab-focus">Lab Focus</h3>
+<ul>
+<li>Quantum photonics and non-Hermitian wave physics</li>
+<li>Metasurface-enabled sensing and field control</li>
+<li>Superconducting/circuit-QED and cryogenic interfaces</li>
+<li>Reproducible computation, simulation, and measurement</li>
+</ul>
+<p><a href="https://quantum.fiu.edu/" rel="noopener" target="_blank">FIU Quantum Initiative</a></p>
+</aside>
+</div>
+</section>
+<section aria-labelledby="featured-publications" class="section">
+<div class="container">
+<div class="section-heading">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="featured-publications">Featured Publications</h2>
+<p>Selected papers highlighting complex-frequency wave physics, scattering, quantum systems, and nanophotonics.</p>
+</div>
+<ol class="publication-list"><li class="publication-item"><strong>D. Trivedi, A. Bhowmik, L. Niaz, and A. Krasnok, “Reflection-Zero Waveforms for Selective Loading in Shared-Line Superconducting Qubit Circuits,”</strong><span><em>Advanced Quantum Technologies</em> 9(9), e70441 (2026).</span><span class="doi"><a href="https://doi.org/10.1002/qute.70441" rel="noopener" target="_blank">doi:10.1002/qute.70441</a></span><span class="cover-recognition">Selected for a cover feature</span><p class="publication-contribution">Designs microwave pulses from the reflection zeros of a coupled qubit circuit to load a chosen mode while reducing energy reflected into a shared control line. Circuit simulations show substantially less excitation of neighboring qubits than equal-energy Gaussian pulses.</p></li>
+<li class="publication-item"><strong>A. Krasnok, “What Quantum Computer to Buy?,”</strong><span><em>AVS Quantum Science</em> 8(3), 034101 (2026).</span><span class="doi"><a href="https://doi.org/10.1116/5.0337237" rel="noopener" target="_blank">doi:10.1116/5.0337237</a></span><p class="publication-contribution">Provides a procurement framework that matches quantum hardware and access models to an institution’s teaching and research needs. It connects platform choice to staffing, facilities, operating costs, and upgrade plans.</p></li>
+<li class="publication-item"><strong>A. Krasnok and D. Seletskiy, “Complex-Frequency Chirped Pulses for Trajectory-Resolved Scattering,”</strong><span><em>ACS Photonics</em> (2026), published online August 4, 2026.</span><span class="doi"><a href="https://doi.org/10.1021/acsphotonics.6c00602" rel="noopener" target="_blank">doi:10.1021/acsphotonics.6c00602</a></span><p class="publication-contribution">Introduces shaped chirped pulses that sample a device’s scattering response along a measured path in the complex-frequency plane. These measurements can test competing resonance models and reveal the net winding of poles and zeros inside a closed path.</p></li>
+<li class="publication-item"><strong>M. M. Hasan, I. Torres, and A. Krasnok, “Quantum Magnetometers for Infrastructure Inspection and Monitoring,”</strong><span><em>Measurement</em> 290, 122735 (2026).</span><span class="doi"><a href="https://doi.org/10.1016/j.measurement.2026.122735" rel="noopener" target="_blank">doi:10.1016/j.measurement.2026.122735</a></span><p class="publication-contribution">Assesses atomic and diamond quantum magnetometers for detecting corrosion, stress, and electrical faults in infrastructure. The review connects sensor performance to stand-off distance, calibration, noise rejection, and the requirements of field inspection.</p></li>
+<li class="publication-item"><strong>A. Krasnok, “Constant-Amplitude 2π Phase Modulation from Topological Pole-Zero Winding,”</strong><span><em>Physical Review Letters</em> 137(5), 053801 (2026).</span><span class="doi"><a href="https://doi.org/10.1103/xt46-rfjs" rel="noopener" target="_blank">doi:10.1103/xt46-rfjs</a></span><p class="publication-contribution">Derives a pole–zero design rule for a full 2π phase rotation at a fixed scattering amplitude. It provides two routes to amplitude-stable phase control: shaped complex-frequency excitation and coordinated tuning of resonator parameters.</p></li>
+<li class="publication-item"><strong>A. Krasnok, “Metamaterials in Superconducting and Cryogenic Quantum Technologies,”</strong><span><em>Applied Physics Reviews</em> 13, 021311 (2026), Special Collection: Materials for Superconducting Quantum Devices.</span><span class="doi"><a href="https://doi.org/10.1063/5.0282013" rel="noopener" target="_blank">doi:10.1063/5.0282013</a></span><p class="publication-contribution">Reviews how engineered electromagnetic environments can reduce unwanted qubit decay and support controlled coupling in superconducting processors. It connects metamaterial design with cryogenic materials, coherence, and scalable quantum-circuit architectures.</p></li>
+<li class="publication-item"><strong>S. Kim, A. Krasnok, and A. Alù, “Complex-frequency excitations in photonics and wave physics,”</strong><span><em>Science</em> 387(6741), eado4128 (2025).</span><span class="doi"><a href="https://doi.org/10.1126/science.ado4128" rel="noopener" target="_blank">doi:10.1126/science.ado4128</a></span><p class="publication-contribution">Brings together the theory and experiments of complex-frequency excitation across wave physics. It explains how temporal pulse shaping can emulate gain or loss and control scattering, energy capture, and wave propagation without changing a material’s composition.</p></li>
+<li class="publication-item"><strong>G. Hu, Q. Ou, G. Si, Y. Wu, J. Wu, Z. Dai, A. Krasnok, Y. Mazor, Q. Zhang, Q. Bao, C.-W. Qiu, and A. Alù, “Topological polaritons and photonic magic angles in twisted α-MoO3 bilayers,”</strong><span><em>Nature</em> 582(7811), 209–213 (2020).</span><span class="doi"><a href="https://doi.org/10.1038/s41586-020-2359-9" rel="noopener" target="_blank">doi:10.1038/s41586-020-2359-9</a></span><p class="publication-contribution">Experimentally demonstrates twist-controlled transitions in the dispersion of polaritons in α-MoO₃ bilayers. At photonic magic angles, light propagates with strongly reduced diffraction, extending twistronics to nanoscale optics.</p></li>
+</ol>
+<p><a class="button" href="publications.html">Full Publications Page</a></p>
+</div>
+</section>
+<section aria-labelledby="selected-covers" class="section alt">
+<div class="container">
+<div class="section-heading">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="selected-covers">Selected Cover Art</h2>
+<p>Selected published work recognized with journal cover features.</p>
+</div>
+<div class="cover-gallery"><figure class="cover-card"><a href="publications.html#pub-10-1063-5-0250178"><img alt="Front cover featuring Gain-Loss Coupled Systems" decoding="async" height="859" loading="lazy" src="assets/img/covers/cv-2025-apl-quantum-gain-loss.webp" width="640"/></a><figcaption><em>APL Quantum</em>, 2025<br/>Front cover</figcaption></figure>
+<figure class="cover-card"><a href="publications.html#pub-10-1021-acsphotonics-1c01840"><img alt="Front cover featuring Boundary-Induced Embedded Eigenstate in a Single Resonator for Advanced Sensing" decoding="async" height="851" loading="lazy" src="assets/img/covers/cv-2022-acs-photonics-boundary-induced-eigenstate.webp" width="640"/></a><figcaption><em>ACS Photonics</em>, 2022<br/>Front cover</figcaption></figure>
+<figure class="cover-card"><a href="publications.html#pub-10-1002-adma-202007236"><img alt="Inside front cover featuring Directional Modulation of Exciton Emission Using Single Dielectric Nanospheres" decoding="async" height="843" loading="lazy" src="assets/img/covers/cv-2021-advanced-materials-exciton-emission.webp" width="640"/></a><figcaption><em>Advanced Materials</em>, 2021<br/>Inside front cover</figcaption></figure>
+<figure class="cover-card"><a href="publications.html#pub-10-1021-acsphotonics-0c00165"><img alt="Supplementary cover featuring Virtual Critical Coupling" decoding="async" height="851" loading="lazy" src="assets/img/covers/cv-2020-acs-photonics-virtual-critical-coupling.webp" width="640"/></a><figcaption><em>ACS Photonics</em>, 2020<br/>Supplementary cover</figcaption></figure>
+<figure class="cover-card"><a href="publications.html#pub-10-1016-j-mattod-2019-02-015"><img alt="Inside front cover featuring All-Optical Reconfigurable Chiral Meta-Molecules" decoding="async" height="830" loading="lazy" src="assets/img/covers/cv-2019-materials-today-chiral-metamolecules.webp" width="640"/></a><figcaption><em>Materials Today</em>, 2019<br/>Inside front cover</figcaption></figure>
+</div>
+<p><a class="button" href="publications.html#recent-work">See More Covers</a></p>
+</div>
+</section>
+<section aria-labelledby="home-news" class="section">
+<div class="container">
+<div class="section-heading">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="home-news">Recent News</h2>
+<p>Awards, support, publications, events, and lab milestones.</p>
+</div>
+<div class="news-list"><article class="news-item"><strong>September 24, 2026: Missouri State University seminar</strong><span>Prof. Krasnok presented “Quantum Computing through the Lens of Physics” at the Physics, Astronomy and Materials Science seminar. <a href="prof-krasnok.html#lectures">Selected talks</a>.</span></article>
+<article class="news-item"><strong>September 23, 2026: FIU announces an on-campus quantum computer</strong><span>FIU signed an agreement for an IonQ Superion 256 trapped-ion system, expected to arrive in late 2027. Prof. Krasnok contributes to research and educational planning through FIU’s quantum committee. <a href="https://news.fiu.edu/2026/miamis-first-quantum-computer-coming-to-fiu" rel="noopener" target="_blank">Read FIU’s announcement</a>. </span></article>
+<article class="news-item"><strong>September 2026: ASEMFL Rising Star in Engineering</strong><span>Prof. Krasnok was selected as a 2026 Rising Star in Engineering by the Academy of Science, Engineering and Medicine of Florida. Recognition is scheduled for the academy’s November annual meeting.</span></article>
+<article class="news-item"><strong>September 2026: University-wide quantum committee</strong><span>Prof. Krasnok joined the Committee on FIU Initiatives in Quantum Science, Education, and Industry Partnerships, contributing expertise in quantum hardware, photonics, sensing, and engineering education.</span></article>
+<article class="news-item"><strong>September 9, 2026: Quantum computing education in Physics World</strong><span>“Universities should judge quantum-computing investments by what students learn” discusses how access to hardware can serve measurable educational goals. <a href="publications.html#science-commentary">Read the article and other public writing</a>.</span></article>
+<article class="news-item"><strong>August 2026: Selective loading of superconducting qubit circuits</strong><span>“Reflection-Zero Waveforms for Selective Loading in Shared-Line Superconducting Qubit Circuits” is published in <em>Advanced Quantum Technologies</em> and selected for a cover feature. <a href="https://doi.org/10.1002/qute.70441" rel="noopener" target="_blank">Read the paper</a>. </span></article>
+<article class="news-item"><strong>August 14, 2026: Fulbright Specialist Roster</strong><span>Prof. Krasnok was selected for the Fulbright Specialist Roster for a three-year term, August 14, 2026–August 14, 2029.</span></article>
+<article class="news-item"><strong>August 2026: New papers on wave control and quantum technology</strong><span>Recent publications examine chirped-pulse scattering, quantum magnetometers for infrastructure inspection, transparent quantum hardware, and quantum-computer procurement. <a href="publications.html">Explore the publications</a>.</span></article>
+<article class="news-item"><strong>August 2026: Open quantum-computing course</strong><span>Lecture notes, assignments, figures, and Qiskit notebooks are available in the <a href="https://github.com/AlexKrasnok/quantum-computing-lectures" rel="noopener" target="_blank">Quantum Computing Lectures repository</a> for teaching and independent study.</span></article>
+<article class="news-item"><strong>Forthcoming October 2026: Engineering textbook</strong><span><em>Introduction to Quantum Computing and Sensing for Electrical Engineers: A Hands-On Guide</em> connects quantum models, circuits, sensing, and Python examples. Springer lists the hardcover for October 28, 2026. <a href="https://link.springer.com/book/9783032345295" rel="noopener" target="_blank">Book details</a>. </span></article>
+<article class="news-item"><strong>2026: Research awards and computing support</strong><span>New DOE/Brookhaven and AFOSR support advances photonic processing and complex-frequency plasma research. NVIDIA supplied 32,000 A100 GPU-hours for the January–June 2026 CFQ-Control project. <a href="prof-krasnok.html#research-support">Research support</a>.</span></article>
+<article class="news-item"><strong>2026: FIU Presidential Excellence Award finalist</strong><span>Prof. Krasnok was recognized as a finalist for the FIU Presidential Excellence Award.</span></article>
+<article class="news-item"><strong>2025–2026: Researcher career milestones</strong><span>Deepanshu Trivedi completed his Ph.D. in December 2025 and joined imec USA Florida. Former postdoc Muhammad Mahmudul Hasan joined Nokia in August 2026. <a href="people.html#alumni-heading">Meet our alumni</a>.</span></article>
+<article class="news-item"><strong>November 8–10, 2025: FIU Qiskit Fall Fest</strong><span>QTM Lab organized and hosted three days of quantum-computing workshops, challenges, invited talks, and student mentoring.</span></article></div>
+</div>
+</section>
+<section aria-labelledby="quantum-initiative" class="section alt">
+<div class="container split">
+<div>
+<div class="section-heading">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="quantum-initiative">FIU Quantum Initiative</h2>
+<p>QTM Lab contributes to FIU-wide quantum education, research, workforce development, and partnerships.</p>
+</div>
+</div>
+<aside class="card">
+<h3>Research, education, and quantum hardware</h3>
+<p>Prof. Krasnok co-founded the FIU Quantum Initiative with Prof. Janki Bhimani and serves on FIU’s university-wide quantum committee. His work connects quantum-hardware research, the undergraduate and graduate course sequence, student workshops, and planning for the IonQ campus installation.</p>
+<p><a href="https://news.fiu.edu/2026/miamis-first-quantum-computer-coming-to-fiu" rel="noopener" target="_blank">FIU–IonQ announcement</a></p>
+</aside>
+</div>
+</section>
+<section aria-labelledby="honors-snapshot" class="section">
+<div class="container">
+<div class="section-heading">
+<span aria-hidden="true" class="gold-rule"></span>
+<h2 id="honors-snapshot">Honors Snapshot</h2>
+</div>
+<ul class="feature-list"><li>ASEMFL Rising Star in Engineering, selected 2026</li><li>Fulbright Specialist Roster, 2026–2029</li><li>Finalist, FIU Presidential Excellence Award, 2026</li><li>FIU Science &amp; Fiction Lab Interdisciplinary Faculty Fellow, 2026</li><li>FIU Top Scholar Award, 2025</li><li>Leopold B. Felsen Award for Excellence in Electrodynamics, 2024</li><li>IEEE Senior Member</li><li>Stanford/Elsevier Top 2% Scientist recognition, 2021–2025</li><li>Early-Career Award in Nanophotonics, 2021</li></ul>
+</div>
+</section>
+</main>
+<footer class="site-footer">
+<div class="container footer-grid">
+<div class="footer-brand">
+<strong>QTM Lab</strong>
+<p>Quantum Technologies and Metamaterials Lab<br/>Florida International University, Department of Electrical and Computer Engineering</p>
+<div class="fiu-logo-slot">
+<img alt="Florida International University logo" decoding="async" loading="lazy" src="assets/img/logos/fiu-wordmark.jpg"/>
+</div>
+</div>
+<div class="footer-links">
+<nav aria-label="Footer navigation"><a href="research.html">Research</a><a href="people.html">People</a><a href="prof-krasnok.html">Prof. Krasnok</a><a href="publications.html">Publications</a><a href="resources.html">Resources</a><a href="openings.html">Opportunities</a></nav>
+<div aria-label="Profile links" class="social-links"><a href="https://scholar.google.com/citations?hl=en&amp;user=VoBBVAYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="noopener" target="_blank">Google Scholar</a><a href="https://orcid.org/0000-0001-7419-781X" rel="noopener" target="_blank">ORCID</a><a href="https://www.linkedin.com/in/alexkrasnok/" rel="noopener" target="_blank">LinkedIn</a><a href="https://cec.fiu.edu/about/directory/profiles/aleksandr-krasnok.html" rel="noopener" target="_blank">FIU Profile</a><a href="https://theconversation.com/profiles/alex-krasnok-1446842" rel="noopener" target="_blank">The Conversation</a><a href="https://research.com/u/alex-krasnok" rel="noopener" target="_blank">Research.com</a></div><a class="visitor-counter" href="https://hits.sh/krasnok.com/qtm-lab/" rel="noopener" target="_blank"><span>Site visits</span><img alt="Site visit counter" loading="lazy" src="https://hits.sh/krasnok.com/qtm-lab.svg?style=flat-square&amp;label=Visits&amp;color=081E3F&amp;labelColor=D1A644"/></a>
+</div>
+</div>
+<div class="container">
+<p class="copyright">© 2026 QTM Lab — Quantum Technologies and Metamaterials Lab, Florida International University.</p>
+</div>
+</footer>
 </body>
 </html>

@@ -24,6 +24,10 @@ html {
   font-size: 16px;
 }
 
+[id] {
+  scroll-margin-top: 7rem;
+}
+
 @media (prefers-reduced-motion: no-preference) {
   html {
     scroll-behavior: smooth;
@@ -541,6 +545,19 @@ a:hover {
   background: var(--fiu-blue);
 }
 
+.metrics-note {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0.75rem;
+  padding-bottom: 1rem;
+  font-size: 0.85rem;
+  color: rgba(255, 255, 255, 0.82);
+}
+
+.metrics-note a {
+  color: var(--bright-gold);
+}
+
 .stats-section {
   color: var(--ink);
   background: var(--white);
@@ -966,9 +983,11 @@ a.card:hover {
 }
 
 .cover-card img {
+  display: block;
   width: 100%;
+  height: auto;
   aspect-ratio: 336 / 443;
-  object-fit: cover;
+  object-fit: contain;
   background: var(--light);
 }
 
