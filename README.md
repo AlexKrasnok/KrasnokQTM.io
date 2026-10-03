@@ -8,7 +8,8 @@ Static website for the Quantum Technologies and Metamaterials Lab at Florida Int
 
 ## Site Structure
 
-- `index.html` — homepage, featured work, and news
+- `index.html` — homepage, featured work, and brief recent news
+- `news.html` — dated news archive, photographs, publications, and lab milestones
 - `research.html` and `research-*.html` — research areas and related publications
 - `people.html` — lab members and collaborators
 - `prof-krasnok.html` — professional profile
@@ -35,3 +36,5 @@ Only public website files belong in the repository. Working documents, downloade
 Use descriptive alternative text for every meaningful image. Keep external publication links on publisher or DOI pages when available, and add `target="_blank" rel="noopener"` to external links.
 
 The FIU logo files in `assets/img/logos/` are lab-supplied official assets. Do not redraw or modify them.
+
+Keep homepage Recent News concise and image-free, with highlights from the latest six to eight months. Add full stories to `news.html` under their year, give each a stable anchor, and link the homepage headline to that story. Preserve older stories in the archive. News dates describe the update; specify event dates in the text when they differ.
