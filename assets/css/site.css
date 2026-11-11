@@ -386,4 +386,16 @@ footer img { height: 48px; width: auto; mix-blend-mode: multiply; }
   .story .with-fig.portrait figure { max-width: 10rem; }
   .cover-row { grid-template-columns: repeat(2, minmax(0, 1fr)); }
 }
+.recent.results { padding-bottom: .5rem; }
+.recent.results + .recent { padding-top: 1rem; }
+.recent ol.r4 { grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.recent .kick { display: block; margin-bottom: .2rem; color: var(--ink-2); font-size: .85rem; }
+.collab-list { columns: 2 18rem; column-gap: 2.4rem; padding-left: 1.2rem; margin: 0; max-width: 62rem; }
+.collab-list li { margin-bottom: .35rem; break-inside: avoid; }
+.legacy .box, .legacy h2, .legacy h3 { overflow-wrap: break-word; }
+@media (max-width: 1100px) { .recent ol.r4 { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 560px) { .recent ol.r4 { grid-template-columns: 1fr; } }
+.slide-text { min-width: 0; overflow-wrap: break-word; }
+.papers li { overflow-wrap: anywhere; }
+@media (min-width: 861px) and (max-width: 1100px) { .slide { grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); } }
 @media print { nav { display: none; } body { background: #fff; } }
