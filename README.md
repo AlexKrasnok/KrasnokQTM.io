@@ -1,40 +1,41 @@
-# QTM Lab Website
+# QTM Lab website
 
-Static website for the Quantum Technologies and Metamaterials Lab at Florida International University.
+Static website of the Quantum Technologies and Metamaterials Lab (QTM Lab) at Florida International University.
 
 - Live site: https://krasnokqtm.com
-- GitHub repository: https://github.com/AlexKrasnok/KrasnokQTM.io
 - Open quantum-computing course: https://github.com/AlexKrasnok/quantum-computing-lectures
 
-## Site Structure
+## Pages
 
-- `index.html` — homepage, featured work, and brief recent news
-- `news.html` — dated news archive, photographs, publications, and lab milestones
-- `research.html` and `research-*.html` — research areas and related publications
-- `people.html` — lab members and collaborators
-- `prof-krasnok.html` — professional profile
-- `publications.html` — selected and recent publications, books, talks, and profile links
-- `facilities.html` — laboratory facilities and equipment
-- `teaching.html` — courses, the open lecture course, and teaching resources
-- `resources.html` — research, software, writing, and FIU resources
-- `openings.html` — opportunities, current fellowship deadlines, recruiting, and contact information
-- `assets/css/styles.css` — shared styles
-- `assets/js/main.js` — navigation behavior
-- `assets/img/` — deployable logos, portraits, research graphics, covers, funding marks, and equipment images
-- `assets/docs/` — two-page academic resume PDF
+- `index.html`: home page with the lab statement, recent news, the journal-cover slideshow, and links to the main sections
+- `research.html` and `research-*.html`: research directions and key papers
+- `publications.html`: journal articles by year, preprints, commentary, books, and journal covers
+- `people.html`: lab members, alumni, and collaborators
+- `prof-krasnok.html`: profile of Prof. Krasnok
+- `teaching.html`: courses, the open lecture course, the textbook, and recorded lectures
+- `quantum-fiu.html`: the FIU Quantum Initiative, the on-campus IonQ quantum computer, and quantum events in Florida
+- `news.html`: news archive, newest first
+- `openings.html`: openings, fellowships, and how to apply
+- `facilities.html` and `resources.html`: laboratory equipment and research resources
+- `contact.html`: redirect to the contact section of `openings.html`
+
+## Files
+
+- `assets/css/site.css`: styles
+- `assets/js/bloch.js`: Bloch-sphere animation on the home page
+- `assets/js/covers.js`: journal-cover slideshow
+- `assets/fonts/`: EB Garamond and Noto Sans web fonts (SIL Open Font License)
+- `assets/img/`: images; most pictures come in AVIF and WebP at two widths
+- `assets/docs/`: two-page academic resume (PDF)
 
 ## Deployment
 
-The site uses static HTML, CSS, and vanilla JavaScript. A push to `main` runs `.github/workflows/static.yml`. The workflow first runs `.github/scripts/prepare_site.py` to collect the public HTML, domain configuration, sitemap, and assets into `_site`, then publishes that directory through GitHub Pages. Local archives and documentation are excluded. The `CNAME` file keeps the custom domain set to `krasnokqtm.com`.
+A push to `main` runs `.github/workflows/static.yml`. The workflow collects the public files with `.github/scripts/prepare_site.py` and publishes them through GitHub Pages. `CNAME` keeps the custom domain `krasnokqtm.com`.
 
-To preview locally, run `python -m http.server 8765` from this directory and open `http://localhost:8765`. To prepare a separate public bundle, run `python .github/scripts/prepare_site.py <empty-output-directory>`.
+To preview the site, run `python -m http.server 8765` in this folder and open `http://localhost:8765`.
 
-## Content Maintenance
+## Images
 
-Only public website files belong in the repository. Working documents, downloaded source pages, CV source files, and previous site versions are stored outside the deployment folder.
+Photographs of the FIU campus and Miami come from Wikimedia Commons under the licenses named in their captions. The FIU logo files are official assets; do not redraw or modify them. Every meaningful image needs descriptive alternative text.
 
-Use descriptive alternative text for every meaningful image. Keep external publication links on publisher or DOI pages when available, and add `target="_blank" rel="noopener"` to external links.
-
-The FIU logo files in `assets/img/logos/` are lab-supplied official assets. Do not redraw or modify them.
-
-Keep homepage Recent News concise and image-free, with highlights from the latest six to eight months. Add full stories to `news.html` under their year, give each a stable anchor, and link the homepage headline to that story. Preserve older stories in the archive. News dates describe the update; specify event dates in the text when they differ.
+Only public website files belong in this repository.

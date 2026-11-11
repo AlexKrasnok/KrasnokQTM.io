@@ -1,91 +1,95 @@
-<!DOCTYPE html>
-
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta content="width=device-width, initial-scale=1" name="viewport"/>
-<title>Quantum Control and Diagnostics | QTM Lab</title>
-<meta content="Selected publications on waveform-aware control, selective excitation, nonreciprocal quantum response, Qiskit-connected education, and hardware-aware diagnostics." name="description"/>
-<meta content="Quantum Control and Diagnostics | QTM Lab" property="og:title"/>
-<meta content="Selected publications on waveform-aware control, selective excitation, nonreciprocal quantum response, Qiskit-connected education, and hardware-aware diagnostics." property="og:description"/>
-<meta content="website" property="og:type"/>
-<meta content="https://krasnokqtm.com/assets/img/research/quantum-control-project.webp" property="og:image"/>
-<meta content="QTM Lab" property="og:site_name"/>
-<meta content="https://krasnokqtm.com/research-quantum-control.html" property="og:url"/>
-<meta content="summary_large_image" name="twitter:card"/>
-<link href="https://krasnokqtm.com/research-quantum-control.html" rel="canonical"/>
-<link href="assets/img/favicon.png" rel="icon"/>
-<link href="assets/css/styles.css?v=20261003-news" rel="stylesheet"/>
-<script defer="" src="assets/js/main.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Quantum control of superconducting qubits | QTM Lab, FIU</title>
+  <meta name="description" content="Papers from the QTM Lab at FIU on control of superconducting qubit circuits, complex-frequency pulses, and Fano-qubits.">
+  <link rel="canonical" href="https://krasnokqtm.com/research-quantum-control.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="QTM Lab, Florida International University">
+  <meta property="og:title" content="Quantum control of superconducting qubits | QTM Lab, FIU">
+  <meta property="og:description" content="Papers from the QTM Lab at FIU on control of superconducting qubit circuits, complex-frequency pulses, and Fano-qubits.">
+  <meta property="og:url" content="https://krasnokqtm.com/research-quantum-control.html">
+  <meta property="og:image" content="https://krasnokqtm.com/assets/img/og/quantum-link-chip.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="assets/img/favicon.png">
+  <link rel="preload" href="assets/fonts/noto-sans-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="assets/fonts/eb-garamond-normal-latin.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="stylesheet" href="assets/css/site.css">
 </head>
 <body>
-<a class="skip-link" href="#main">Skip to content</a>
-<header class="site-header">
-<div class="container header-inner">
-<a aria-label="QTM Lab home" class="brand" href="index.html"><span aria-hidden="true" class="brand-logo"><img alt="" src="assets/img/favicon.png"/></span><span class="brand-text"><strong>QTM Lab</strong><small>Quantum Technologies and Metamaterials Lab</small></span></a>
-<button aria-controls="site-navigation" aria-expanded="false" class="nav-toggle" type="button"><span aria-hidden="true" class="nav-toggle-bars"></span><span class="sr-only">Toggle navigation</span></button>
-<nav aria-label="Main navigation" class="site-nav" id="site-navigation">
-<ul>
-<li><a href="index.html">Home</a></li>
-<li><a href="news.html">News</a></li>
-<li><a aria-current="page" href="research.html">Research</a></li>
-<li><a href="people.html">People</a></li>
-<li><a href="prof-krasnok.html">Prof. Krasnok</a></li>
-<li><a href="publications.html">Publications</a></li>
-<li><a href="facilities.html">Facilities</a></li>
-<li><a href="teaching.html">Teaching</a></li>
-<li><a href="resources.html">Resources</a></li>
-<li><a href="openings.html">Opportunities</a></li>
-</ul>
-</nav>
-</div>
+<a class="skip" href="#main">Skip to content</a>
+<header class="masthead">
+  <div class="wrap">
+    <a class="wordmark" href="index.html"><b>QTM Lab</b><span class="pz" aria-hidden="true">×○</span><span>Quantum Technologies and Metamaterials, FIU</span></a>
+    <nav aria-label="Main">
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="research.html" aria-current="page">Research</a></li>
+        <li><a href="publications.html">Publications</a></li>
+        <li><a href="people.html">People</a></li>
+        <li><a href="prof-krasnok.html">Prof. Krasnok</a></li>
+        <li><a href="teaching.html">Teaching</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="openings.html">Join</a></li>
+      </ul>
+    </nav>
+  </div>
 </header>
 <main id="main">
-<section aria-labelledby="area-title" class="hero page-hero">
-<div aria-hidden="true" class="hero-pattern"><div class="orbit"></div><div class="wave"></div></div>
-<div class="container hero-inner">
-<div class="hero-content">
-<p class="eyebrow">Research Area</p>
-<h1 id="area-title">Quantum control and quantum-hardware diagnostics</h1>
-<p class="tagline">Selected publications on waveform-aware control, selective excitation, nonreciprocal quantum response, Qiskit-connected education, and hardware-aware diagnostics.</p>
-<div class="hero-actions"><a class="button secondary" href="research.html">Back to Research</a><a class="button" href="publications.html">Full Publications</a></div>
-</div>
-</div>
-</section>
-<section aria-labelledby="relevant-publications" class="section">
-<div class="container split">
+  <section class="page-head">
+    <div class="wrap split">
+      <div>
+      <h1>Quantum control and quantum-hardware diagnostics</h1>
+      <p>Selected publications on waveform-aware control, selective excitation, nonreciprocal quantum response, Qiskit-connected education, and hardware-aware diagnostics.</p>
+      <p><a href="publications.html">Full Publications</a></p>
+      </div>
+      <figure><picture><source type="image/avif" srcset="assets/img/renders/quantum-link-chip-800.avif 800w, assets/img/renders/quantum-link-chip-1600.avif 1600w" sizes="(max-width: 860px) 100vw, 30rem"><img src="assets/img/renders/quantum-link-chip-800.webp" srcset="assets/img/renders/quantum-link-chip-800.webp 800w, assets/img/renders/quantum-link-chip-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 30rem" width="1600" height="1000" alt="Rendering of a superconducting chip with a cross-shaped qubit, a meandering readout resonator, and wire bonds along the edge; a glowing microwave pulse runs along a line connected to the qubit." decoding="async" fetchpriority="high"></picture><figcaption>Rendering of a superconducting qubit chip. The cross-shaped island is a qubit and the meandering line above it is its readout resonator; the glowing trace is a shaped microwave pulse on the line connected to the qubit.</figcaption></figure>
+    </div>
+  </section>
+  <section class="section fig-band"><div class="wrap"><div class="fig-row"><figure><picture><source type="image/avif" srcset="assets/img/renders/bloch-sphere-800.avif 800w, assets/img/renders/bloch-sphere-1600.avif 1600w" sizes="(max-width: 560px) 100vw, (max-width: 860px) 50vw, 24rem"><img src="assets/img/renders/bloch-sphere-800.webp" srcset="assets/img/renders/bloch-sphere-800.webp 800w, assets/img/renders/bloch-sphere-1600.webp 1600w" sizes="(max-width: 560px) 100vw, (max-width: 860px) 50vw, 24rem" width="1600" height="1000" alt="A glass sphere with navy axes and rings, labelled |0⟩ at the top, |1⟩ at the bottom, and x and y on the equator; an orange arrow from the centre points to the surface, and a trace that turns from blue to orange spirals down from the north pole to the arrow tip." decoding="async" loading="lazy"></picture><figcaption>Rendering of the Bloch sphere: a control pulse moves the qubit state from the north pole along the coloured trace.</figcaption></figure><figure><picture><source type="image/avif" srcset="assets/img/renders/dilution-refrigerator-800.avif 800w, assets/img/renders/dilution-refrigerator-1600.avif 1600w" sizes="(max-width: 560px) 100vw, (max-width: 860px) 50vw, 24rem"><img src="assets/img/renders/dilution-refrigerator-800.webp" srcset="assets/img/renders/dilution-refrigerator-800.webp 800w, assets/img/renders/dilution-refrigerator-1600.webp 1600w" sizes="(max-width: 560px) 100vw, (max-width: 860px) 50vw, 24rem" width="1600" height="1000" alt="Rendering of the gold-plated stages of a dilution refrigerator with coaxial lines, attenuators, and a copper sample box at the bottom." decoding="async" loading="lazy"></picture><figcaption>Rendering of the cold stages of a dilution refrigerator, where superconducting qubits are measured at about 10 millikelvin.</figcaption></figure></div></div></section>
+
+
+
+<section aria-labelledby="relevant-publications" class="section legacy">
+<div class="wrap split">
 <div>
-<div class="section-heading">
-<span aria-hidden="true" class="gold-rule"></span>
+<div class="sec-head">
+
 <h2 id="relevant-publications">Relevant Publications</h2>
 <p>Papers most closely tied to this area. See more work on the <a href="publications.html">Publications</a> page, or the complete record on <a href="https://scholar.google.com/citations?user=VoBBVAYAAAAJ" target="_blank" rel="noopener">Google Scholar</a>.</p>
 </div>
-<ol class="publication-list">
+<ol class="papers-legacy">
 <li class="publication-item"><strong>A. Krasnok, “Constant-Amplitude 2π Phase Modulation from Topological Pole-Zero Winding,”</strong><span>Physical Review Letters 137(5), 053801 (2026).</span><span class="doi"><a href="https://doi.org/10.1103/xt46-rfjs" rel="noopener" target="_blank">doi:10.1103/xt46-rfjs</a></span></li>
 <li class="publication-item"><strong>D. Trivedi, L. Niaz, A. Alù, and A. Krasnok, “Selective Excitation of Coupled Resonators via Complex Frequency Driving: Enhanced Efficiency and Crosstalk Suppression,”</strong><span>ACS Photonics 12(11), 5929-5938 (2025).</span><span class="doi"><a href="https://doi.org/10.1021/acsphotonics.5c01244" rel="noopener" target="_blank">doi:10.1021/acsphotonics.5c01244</a></span></li>
-<li class="publication-item"><strong>D. Trivedi, A. Bhowmik, L. Niaz, and A. Krasnok, “Reflection-Zero Waveforms for Selective Loading in Shared-Line Superconducting Qubit Circuits,”</strong><span><em>Advanced Quantum Technologies</em> 9(9), e70441 (2026). Selected for a cover feature.</span><span class="doi"><a href="https://doi.org/10.1002/qute.70441" rel="noopener" target="_blank">doi:10.1002/qute.70441</a></span></li>
+<li class="publication-item"><strong>D. Trivedi, A. Bhowmik, L. Niaz, and A. Krasnok, “Reflection-Zero Waveforms for Selective Loading in Shared-Line Superconducting Qubit Circuits,”</strong><span><i>Advanced Quantum Technologies</i> 9(9), e70441 (2026). Selected for a cover feature.</span><span class="doi"><a href="https://doi.org/10.1002/qute.70441" rel="noopener" target="_blank">doi:10.1002/qute.70441</a></span></li>
 <li class="publication-item"><strong>D. Trivedi, L. Belostotski, A. Madanayake, and A. Krasnok, “Fano-Qubits for Quantum Devices with Enhanced Isolation and Bandwidth,”</strong><span>Applied Physics Letters 122, 264003 (2023).</span><span class="doi"><a href="https://doi.org/10.1063/5.0151047" rel="noopener" target="_blank">doi:10.1063/5.0151047</a></span></li>
 <li class="publication-item"><strong>A. Pandey and A. Krasnok, “Backscattering-Immune Floquet Conversion in Ring Modulators,”</strong><span>Physical Review Applied 23, 024046 (2025).</span><span class="doi"><a href="https://doi.org/10.1103/PhysRevApplied.23.024046" rel="noopener" target="_blank">doi:10.1103/PhysRevApplied.23.024046</a></span></li>
 <li class="publication-item"><strong>N. Nefedkin, M. Cotrufo, A. Krasnok, and A. Alù, “Dark-State Induced Quantum Nonreciprocity,”</strong><span>Advanced Quantum Technologies 5(3), 2100112 (2022).</span><span class="doi"><a href="https://doi.org/10.1002/qute.202100112" rel="noopener" target="_blank">doi:10.1002/qute.202100112</a></span></li>
 <li class="publication-item"><strong>N. Nefedkin, A. Alù, and A. Krasnok, “Quantum Embedded Superstates,”</strong><span>Advanced Quantum Technologies 4(6), 2000121 (2021).</span><span class="doi"><a href="https://doi.org/10.1002/qute.202000121" rel="noopener" target="_blank">doi:10.1002/qute.202000121</a></span></li>
 </ol>
 </div>
-<aside class="card visual-card">
-<img alt="Representative QTM Lab research visual for quantum control and quantum-hardware diagnostics" src="assets/img/research/quantum-control-project.webp"/>
-<div class="visual-copy">
+<aside class="figure-box">
+<figure><picture><source type="image/avif" srcset="assets/img/renders/qubit-chip-closeup-800.avif 800w, assets/img/renders/qubit-chip-closeup-1600.avif 1600w" sizes="(max-width: 860px) 100vw, 30rem"><img src="assets/img/renders/qubit-chip-closeup-800.webp" srcset="assets/img/renders/qubit-chip-closeup-800.webp 800w, assets/img/renders/qubit-chip-closeup-1600.webp 1600w" sizes="(max-width: 860px) 100vw, 30rem" width="1600" height="1000" alt="Rendering of one cross-shaped qubit up close, with a glowing pulse on the control line that leads to it and a meandering resonator behind it." decoding="async" loading="lazy"></picture><figcaption>Rendering of a single qubit up close. A shaped microwave pulse travels along this qubit's own control line; the meandering resonator behind the qubit is used to read it out.</figcaption></figure>
+<div class="figure-text">
 <h3>Selective excitation and readout</h3>
 <p>The lab studies waveform design for coupled superconducting circuits, crosstalk suppression, and quantum nonreciprocity, connecting circuit models with physical device constraints.</p>
 </div>
 </aside>
 </div>
 </section>
+
 </main>
-<footer class="site-footer">
-<div class="container footer-grid">
-<div class="footer-brand"><strong>QTM Lab</strong><p>Quantum Technologies and Metamaterials Lab<br/>Florida International University, Department of Electrical and Computer Engineering</p><div class="fiu-logo-slot"><img alt="Florida International University logo" decoding="async" loading="lazy" src="assets/img/logos/fiu-wordmark.jpg"/></div></div>
-<div class="footer-links"><nav aria-label="Footer navigation"><a href="news.html">News</a><a href="research.html">Research</a><a href="people.html">People</a><a href="prof-krasnok.html">Prof. Krasnok</a><a href="publications.html">Publications</a><a href="resources.html">Resources</a><a href="openings.html">Opportunities</a></nav><div aria-label="Profile links" class="social-links"><a href="https://scholar.google.com/citations?hl=en&amp;user=VoBBVAYAAAAJ&amp;view_op=list_works&amp;sortby=pubdate" rel="noopener" target="_blank">Google Scholar</a><a href="https://orcid.org/0000-0001-7419-781X" rel="noopener" target="_blank">ORCID</a><a href="https://www.linkedin.com/in/alexkrasnok/" rel="noopener" target="_blank">LinkedIn</a><a href="https://cec.fiu.edu/about/directory/profiles/aleksandr-krasnok.html" rel="noopener" target="_blank">FIU Profile</a><a href="https://theconversation.com/profiles/alex-krasnok-1446842" rel="noopener" target="_blank">The Conversation</a><a href="https://research.com/u/alex-krasnok" rel="noopener" target="_blank">Research.com</a></div><a class="visitor-counter" href="https://hits.sh/krasnok.com/qtm-lab/" rel="noopener" target="_blank"><span>Site visits</span><img alt="Site visit counter" loading="lazy" src="https://hits.sh/krasnok.com/qtm-lab.svg?style=flat-square&amp;label=Visits&amp;color=081E3F&amp;labelColor=D1A644"/></a></div>
-</div>
-<div class="container"><p class="copyright">© 2026 QTM Lab — Quantum Technologies and Metamaterials Lab, Florida International University.</p></div>
+<footer>
+  <div class="wrap">
+    <div>
+      <p><b>Quantum Technologies and Metamaterials Lab (QTM Lab)</b>, Department of Electrical and Computer Engineering, Florida International University, 10555 W Flagler Street, Engineering Center, Miami, FL 33174. Email <a href="mailto:akrasnok@fiu.edu">akrasnok@fiu.edu</a>.</p>
+      <p>Supported by NSF, DOE, AFOSR, ONR, and the Intelligence Community Postdoctoral Research Fellowship Program, with computing from NVIDIA and IonQ. Part of the <a href="quantum-fiu.html">FIU Quantum Initiative</a>.</p>
+      <p><a href="prof-krasnok.html">Prof. Krasnok</a> · <a href="quantum-fiu.html">Quantum at FIU</a> · <a href="facilities.html">Facilities</a> · <a href="resources.html">Resources</a> · <a href="https://scholar.google.com/citations?user=VoBBVAYAAAAJ">Google Scholar</a> · <a href="https://orcid.org/0000-0001-7419-781X">ORCID</a> · <a href="https://www.youtube.com/@QTMKrasnok">YouTube</a> · <a href="https://github.com/AlexKrasnok/quantum-computing-lectures">Lecture course on GitHub</a> · Updated November 2026</p>
+    </div>
+    <img src="assets/img/logos/fiu-wordmark.jpg" alt="Florida International University" width="188" height="48" loading="lazy">
+  </div>
 </footer>
 </body>
 </html>
